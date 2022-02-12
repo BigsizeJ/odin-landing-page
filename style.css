@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+    list-style-type: none;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+@font-face {
+    font-family: PermanentMarker;
+    src: url("font/PermanentMarker.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.header .logo{
+    font-family: PermanentMarker;
+    font-size: 25px;
+}
+
+.header ul{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content{
+    display: flex;
+    padding: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+}
+
+.content img{
+    width: 500px;
+    height: 300px;
+}
+
+.left{
+    width: 400px;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.left p{
+    margin: 0px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.left button{
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100px;
+    background-color: #3882f6;
+}
+
+.left button:hover{
+    transition: 1s;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.right{
+    flex-shrink: 0;
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.info h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.box{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 100px;
+}
+
+
+.item p{
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+.item img{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote-box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote, .quote p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    color: #1f2937;
+    margin: 0px 50px 0px 50px;
+}
+
+.user, .user p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.banner{
+    padding: 100px;
+}
